@@ -6,7 +6,8 @@
     flex-direction: row;
     padding: 1rem 0;
     justify-content: space-between;
-    
+    transition: 500ms;
+    align-items: center;
 
     ul{
         display: flex;
@@ -16,15 +17,32 @@
             text-decoration: none;
 
             li{
-                padding: 0 1rem;
+                padding: 1rem;
                 color: $text-color;
+
+                &:hover{
+                    color: white;
+                }
             }
         }
     }
 }
 
-#nav {
+.nav-sticky {
     position: sticky;
     top: 0;
-    background-color: white;
+    background-color: rgba($color: black, $alpha: 0.6);
+    transition: 500ms;
+    ul{
+        a{
+            li{
+                color: white!important;
+                transition: 300ms;
+
+                &:hover{
+                    background-color: $btn-color!important;
+                }
+            }
+        }
+    }
 }
