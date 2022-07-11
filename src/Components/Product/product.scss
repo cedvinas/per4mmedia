@@ -1,0 +1,35 @@
+.products{
+    display: flex;
+
+    .product{
+        height: 22.8125rem;
+        width: 14rem;
+        margin: 0 1rem;
+
+        .product-description{
+            display: flex;
+            flex-direction: column;
+            text-transform: uppercase;
+
+            .category{
+                font-size: small;
+                color: #787878;
+                text-transform: none;
+            }
+            
+            p{
+                margin: 0.5em 0 0 0;
+            }
+
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+        img{
+            width: 14rem;
+            height: 14rem;
+        }
+    }
+}
