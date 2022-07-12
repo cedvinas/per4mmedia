@@ -1,0 +1,51 @@
+.footer-nav {
+    height: 20rem;
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #2E9CCA 0%, #29648A 100%);
+    padding: 70px 0;
+
+    .widgets{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 0px 25rem;
+        margin-top: -6.687rem;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+
+        .footer-section{
+            display: flex;
+            flex-direction: column;
+            font-weight: 500;
+            font-family: 'Barlow Semi Condensed',sans-serif;
+            text-transform: inherit;
+            align-items: center;
+    
+                .footer-header-text{
+                    color: white;
+                    
+                }
+
+                .footer-nav-links{
+                    list-style: none;
+                    
+
+                    li{
+                        margin-top: 0.5rem;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            
+                        }
+                    }
+
+                }
+        }
+    }
+
+
+}

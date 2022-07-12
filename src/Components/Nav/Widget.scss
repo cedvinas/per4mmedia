@@ -1,0 +1,17 @@
+.footer-widget{
+    height: 2.5rem;
+    width: 13.3125rem;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 0.75rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 2.5rem;
+    }
+}
